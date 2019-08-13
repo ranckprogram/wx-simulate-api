@@ -39,3 +39,10 @@ Get
 | sex  | String | |
 | birth  | String | |
 | avatar  | String | |
+
+
+
+### 接口文档
+
+> 获取通讯录列表 /addressList?id=1
+
