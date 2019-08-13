@@ -16,4 +16,8 @@ public class UserService {
         return user;
     }
 
+    public User getUserById (Integer id) {
+        return userRepository.getUserById(id);
+    }
+
 }
