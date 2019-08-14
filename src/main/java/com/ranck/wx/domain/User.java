@@ -117,4 +117,21 @@ public class User {
     private String region;
 
     private String signature;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", phone='" + phone + '\'' +
+                ", password='" + password + '\'' +
+                ", username='" + username + '\'' +
+                ", wx='" + wx + '\'' +
+                ", avatar='" + avatar + '\'' +
+                ", QRcode='" + QRcode + '\'' +
+                ", sex='" + sex + '\'' +
+                ", birth='" + birth + '\'' +
+                ", region='" + region + '\'' +
+                ", signature='" + signature + '\'' +
+                '}';
+    }
 }
